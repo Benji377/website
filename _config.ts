@@ -11,7 +11,7 @@ import sitemap from "lume/plugins/sitemap.ts";
 import feed from "lume/plugins/feed.ts";
 
 const site = lume({
-  location: new URL("https://example.com/"),
+  location: new URL("https://benji377.deno.dev"),
 });
 
 site

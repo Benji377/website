@@ -5,7 +5,7 @@ f.defaultRequired = false;
 const config = {
   backend: {
     name: "git-gateway",
-    branch: "master",
+    branch: "main"
   },
   media_folder: "img",
   collections: [],

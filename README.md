@@ -1,4 +1,5 @@
 # Lume base blog example
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e36c8145-16fc-412d-8b08-5355d913be18/deploy-status)](https://app.netlify.com/sites/benji377/deploys)
 
 A starter repository showing how to build a blog with the
 [Lume](https://github.com/lumeland/lume) static site generator.
