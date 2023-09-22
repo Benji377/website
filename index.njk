@@ -6,6 +6,23 @@ menu:
   order: 0
 ---
 
+
+<div class="container">
+        <div class="circle">
+            <img src="/img/logo.png" alt="Profile Image">
+        </div>
+        <div class="text">
+            <h1>Welcome to my blog</h1>
+            <p>Coding insights, one blog at a time.</p>
+            <p>Journey through insights, stories, and more.</p>
+        </div>
+<div class="social-icons">
+    <a href="mailto:demetzbenjamin@duck.com"><i class="fa-regular fa-envelope"></i></a>
+    <a href="https://github.com/Benji377"><i class="fab fa-github"></i></a>
+    <a href="https://twitter.com/benben377"><i class="fab fa-twitter"></i></a>
+</div>
+</div>
+
 {% set postslist = search.pages("type=posts", "date=desc", 3) %}
 
 <h1>Latest {% if postslist.length == 1 %}Post{% else %}{{ postslist.length }} Posts{% endif %}</h1>

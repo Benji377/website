@@ -41,11 +41,6 @@ a {
   color: var(--blue);
 }
 
-/* Warning */
-.warning {
-  background-color: #ffc;
-  padding: 1em 0.5em;
-}
 
 table {
   margin: 1em 0;
