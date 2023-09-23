@@ -5,9 +5,8 @@ date: 2023-09-23T19:45:07.862Z
 tags:
   - projects
 draft: false
+thumbnail: /img/openmusic.png
 ---
-
-![OpenMusic Logo](../img/media/openmusic.png)
 
 # OpenMusic (formerly SocyMusic)
 OpenMusic began as my venture into creating the ultimate free open-source music player for Android devices. My aim was simple: a clean, minimalist design packed with features catering to music enthusiasts of all kinds.

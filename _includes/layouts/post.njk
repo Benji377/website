@@ -17,6 +17,12 @@ bodyClass: body-post
     </time>
   </div>
 
+{%- if thumbnail %}
+
+  <img src="{{ thumbnail }}" width="50%" height="50%">
+
+{% endif %}
+
   <div class="post-body">
     {{ content | safe }}
   </div>

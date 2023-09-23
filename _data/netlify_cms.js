@@ -24,6 +24,7 @@ config.collections.push(
       f.datetime("Date"),
       f.list("Tags"),
       f.boolean("Draft").required(false),
+      f.image("Thumbnail").required(false),
       f.markdown("Body"),
     ])
     .toJSON(),
