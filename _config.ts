@@ -23,7 +23,6 @@ site
   .use(date())
   .use(codeHighlight())
   .use(basePath())
-  .use(sitemap())
   .use(pageFind({
     ui: {
       resetStyles: false,
@@ -53,6 +52,7 @@ site
   .use(resolveUrls())
   .use(favicon({input: "img/logo.png"}))
   .use(readInfo())
+  .use(sitemap())
   .use(netlifyCMS({ netlifyIdentity: true }));
 
 export default site;
