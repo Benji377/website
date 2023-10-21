@@ -15,6 +15,7 @@ bodyClass: body-post
     <time class="post-date" datetime="{{ date | date('DATETIME') }}">
       {{ date | date('HUMAN_DATE') }}
     </time>
+    | {{ readingInfo.minutes }} min read
   </div>
 
 {%- if thumbnail %}

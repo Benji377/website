@@ -5,7 +5,7 @@ date: 2023-09-23T19:45:07.862Z
 tags:
   - projects
 draft: false
-thumbnail: /img/openmusic.png
+thumbnail: /img/media/openmusic.png
 ---
 
 # OpenMusic (formerly SocyMusic)

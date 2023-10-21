@@ -9,6 +9,8 @@ import netlifyCMS from "lume/plugins/netlify_cms.ts";
 import pageFind from "lume/plugins/pagefind.ts";
 import sitemap from "lume/plugins/sitemap.ts";
 import feed from "lume/plugins/feed.ts";
+import favicon from "lume/plugins/favicon.ts";
+import readInfo from "lume/plugins/reading_info.ts";
 
 const site = lume({
   location: new URL("https://benji377.netlify.app"),
@@ -29,18 +31,28 @@ site
   }))
   .use(slugifyUrls({ alphanumeric: false }))
   .use(feed({
-    output: ["/feed.json", "/feed.xml"],
+    output: ["/feed.json", "/feed.rss"],
     query: "type=posts",
+    sort: "date=desc",
+    limit: 10,
     info: {
       title: "=site.title",
       description: "=site.description",
+      date: new Date(),
+      lang: "en",
+      generator: true,
     },
     items: {
       title: "=title",
+      description: "=description",
+      date: "=date",
       content: "$.post-body",
+      lang: "en",
     }
   }))
   .use(resolveUrls())
+  .use(favicon({input: "img/logo.png"}))
+  .use(readInfo())
   .use(netlifyCMS({ netlifyIdentity: true }));
 
 export default site;
