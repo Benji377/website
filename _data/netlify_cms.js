@@ -7,7 +7,7 @@ const config = {
     name: "git-gateway",
     branch: "main"
   },
-  media_folder: "img",
+  media_folder: "img/media",
   collections: [],
 };
 
