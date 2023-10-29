@@ -5,6 +5,7 @@ date: 2023-10-29T17:58:41.631Z
 tags:
   - TUTORIAL
 draft: true
+thumbnail: /img/media/optifine_world.jpg
 ---
 # How to Install Optifine for Minecraft
 
