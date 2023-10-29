@@ -4,6 +4,7 @@ description: My first post on my new blog
 date: 2023-09-20T20:51:58.916Z
 tags:
   - articles
+thumbnail: /img/media/_3366fbb4-22e7-4e58-921a-c7a1db6158d3.jpg
 ---
 # Welcome to My Blog!
 
