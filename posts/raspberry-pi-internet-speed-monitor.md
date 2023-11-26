@@ -138,7 +138,7 @@ Export historical data by clicking on the three dots in the upper right corner o
 ### Final Thoughts
 
 This monitor served as crucial evidence in addressing internet issues, providing real-time data reflecting the user experience. The Raspberry Pi mimics a typical user, capturing the nuances of the internet connection. Visualizing the data through Grafana is not only informative but also fascinating. Check out my dashboard after just a few days:
-
+![img/media/internetmonitor.png]
 
 ## Credits
 
