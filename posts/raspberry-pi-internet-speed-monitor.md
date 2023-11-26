@@ -1,7 +1,7 @@
 ---
 title: Raspberry Pi Internet speed monitor
 date: 2023-11-23T09:47:41.834Z
-draft: true
+draft: false
 thumbnail: /img/media/internetmonitor.png
 ---
 # Grafana Speed Monitor: Setting Up an Internet Monitor with Raspberry Pi
