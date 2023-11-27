@@ -3,7 +3,7 @@ title: Raspberry Pi Internet speed monitor
 description: A short guide on how to set up an Internet Monitor on a Raspberry Pi
 date: 2023-11-27T11:41:26.695Z
 tags:
-  - TUTORIAL
+  - tutorial
 draft: false
 thumbnail: /img/media/internetmonitor.png
 ---
