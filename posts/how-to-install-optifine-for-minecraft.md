@@ -3,7 +3,7 @@ title: How to install Optifine for Minecraft
 description: Tutorial on how to install Optifine for basically any Minecraft version
 date: 2023-10-29T17:58:41.631Z
 tags:
-  - TUTORIAL
+  - tutorial
 draft: false
 thumbnail: /img/media/optifine_world.jpg
 ---
