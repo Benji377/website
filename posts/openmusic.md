@@ -1,6 +1,7 @@
 ---
-title: OpenMusic
-description: The rise and downfall of the OpenMusic project
+title: OpenMusic - My first Open source project
+description: The rise and downfall of the OpenMusic project. Why it is important
+  to not overestimate your workload
 date: 2023-09-23T19:45:07.862Z
 tags:
   - projects
