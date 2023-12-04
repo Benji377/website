@@ -2,7 +2,7 @@
 title: A Guide to Deleting Your Data from Unused Websites
 description: Diving into why your old inactive accounts can still pose a
   security threat to you, even after years.
-date: 2023-10-15T10:09:56.420Z
+date: 2023-12-04T20:39:38.522Z
 tags:
   - articles
 draft: false
