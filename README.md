@@ -37,3 +37,4 @@
 ## Deployment
 - Deployed website at https://benji377.netlify.app/
 - CMS at: https://benji377.netlify.app/admin
+- Mail at: https://app.sendgrid.com/
