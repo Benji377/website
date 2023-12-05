@@ -27,6 +27,11 @@
     margin: 10px 0;
 }
 
+.social-icons {
+    padding-top: 5px;
+}
+
+
 /* Style the social icons */
 .social-icons a {
     margin: 0 10px;
@@ -38,4 +43,18 @@
     .container {
         padding: 0 20px;
     }
+}
+
+.subscribe-btn {
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none !important;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px;
+    cursor: pointer;
+    border-radius: 5px;
 }

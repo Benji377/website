@@ -6,7 +6,7 @@ date: 2023-12-04T20:39:38.522Z
 tags:
   - articles
 draft: false
-thumbnail: /img/media/_22d182d9-6a7b-4718-ad79-3b1999fbd467.jpg
+thumbnail: /img/media/deletedata.jpg
 ---
 ## Introduction
 Many of us have experienced this scenario at some point – creating an account for a service, giving it a try, and eventually deciding to move on. Unfortunately, we often neglect to delete these accounts, leaving our personal information lingering on websites. This oversight can lead to unpleasant surprises in the future.
