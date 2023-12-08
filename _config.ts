@@ -7,7 +7,7 @@ import slugifyUrls from "lume/plugins/slugify_urls.ts";
 import resolveUrls from "lume/plugins/resolve_urls.ts";
 import netlifyCMS from "lume/plugins/netlify_cms.ts";
 import pageFind from "lume/plugins/pagefind.ts";
-import sitemap from "lume/plugins/sitemap.ts";
+// import sitemap from "lume/plugins/sitemap.ts";
 import feed from "lume/plugins/feed.ts";
 import favicon from "lume/plugins/favicon.ts";
 import readInfo from "lume/plugins/reading_info.ts";
@@ -52,7 +52,7 @@ site
   .use(resolveUrls())
   .use(favicon({input: "img/logo.png"}))
   .use(readInfo())
-  .use(sitemap())
+//  .use(sitemap())
   .use(netlifyCMS({ netlifyIdentity: true }));
 
 export default site;
