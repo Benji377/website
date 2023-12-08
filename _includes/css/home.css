@@ -48,13 +48,16 @@
 .subscribe-btn {
     background-color: #f44336;
     border: none;
-    color: white;
     padding: 10px 20px;
     text-align: center;
-    text-decoration: none !important;
     display: inline-block;
     font-size: 16px;
     margin: 20px;
     cursor: pointer;
     border-radius: 5px;
+}
+
+.subscribe-btn a {
+    color: white;
+    text-decoration: none;
 }
