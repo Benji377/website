@@ -1,5 +1,5 @@
 ---
-title: Automating GitHub projects
+title: Automating GitHub Projects
 description: How you can automate your GitHub project and save a lot of time
 date: 2023-12-29T16:22:40.845Z
 tags:
