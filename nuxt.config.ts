@@ -1,5 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  extends: '@nuxt-themes/alpine',
   devtools: { enabled: true },
   modules: [
     '@nuxt/image',
@@ -8,6 +9,8 @@ export default defineNuxtConfig({
     'nuxt-gtag',
     '@nuxt/content',
     '@nuxt/ui',
+    '@nuxtjs/plausible',
+    '@nuxt/devtools'
   ],
   site: {
     url: 'https://benji377.netlify.app',

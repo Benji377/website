@@ -1,15 +1,21 @@
 {
   "name": "nuxt-app",
   "private": true,
-  "type": "module",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "lint": "eslint ."
   },
   "devDependencies": {
+    "@nuxt-themes/alpine": "latest",
+    "@nuxt/devtools": "^1.0.8",
+    "@nuxt/eslint-config": "^0.2.0",
+    "@nuxtjs/plausible": "^0.2.4",
+    "@types/node": "^20.11.5",
+    "eslint": "^8.56.0",
     "@nuxthq/studio": "^1.0.10",
     "@nuxtjs/seo": "^2.0.0-rc.5",
     "@vite-pwa/nuxt": "^0.4.0",
