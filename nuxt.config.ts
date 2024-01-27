@@ -3,13 +3,11 @@ export default defineNuxtConfig({
   extends: '@nuxt-themes/alpine',
   devtools: { enabled: true },
   modules: [
-    '@nuxt/image',
     '@nuxtjs/seo',
     '@nuxthq/studio',
     'nuxt-gtag',
     '@nuxt/content',
     '@nuxt/ui',
-    '@nuxtjs/plausible',
     '@nuxt/devtools'
   ],
   site: {
