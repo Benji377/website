@@ -1,4 +1,4 @@
-# Lume base blog example
+# Lume base blog
 [![Netlify Status](https://api.netlify.com/api/v1/badges/e36c8145-16fc-412d-8b08-5355d913be18/deploy-status)](https://app.netlify.com/sites/benji377/deploys)
 
 ## Getting Started
