@@ -1,38 +1,38 @@
 export default defineAppConfig({
   alpine: {
-    title: 'Alpine',
-    description: 'The minimalist blog theme',
+    title: 'Benjis Blog',
+    description: 'My own personal blog.',
     image: {
-      src: '/social-card-preview.png',
+      src: '/banner.webp',
       alt: 'An image showcasing my project.',
       width: 400,
       height: 300
     },
     header: {
-      position: 'right',
+      position: 'left',
       logo: {
-        path: '/logo.svg',
-        pathDark: '/logo-dark.svg',
-        alt: 'alpine'
+        path: '/logo.png',
+        pathDark: '/logo.png',
+        alt: 'Benjis Blog',
       }
     },
     footer: {
       credits: {
         enabled: true,
-        text: 'Alpine',
-        repository: 'https://www.github.com/nuxt-themes/alpine'
+        text: 'Benjis Blog',
+        repository: 'https://github.com/Benji377/website'
       },
       navigation: true,
       alignment: 'center',
       message: 'Follow me on'
     },
     socials: {
-      twitter: '',
+      twitter: 'https://twitter.com/Benben377',
       instagram: '',
-      github: '',
+      github: 'https://github.com/Benji377',
       facebook: '',
       medium: '',
-      youtube: ''
+      youtube: 'https://www.youtube.com/@benji_377'
     },
     form: {
       successMessage: 'Message sent. Thank you!'

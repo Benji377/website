@@ -24,8 +24,8 @@ const show = ref(false)
       <NuxtLink v-if="alpine.header.logo" to="/">
         <!-- TODO: width/height doesn't make much sense here, but Lighthouse requires it. 
         Used current Alpine logo ratio, will break on enduser logo -->
-        <NuxtImg class="dark-img" :src="alpine.header.logo.pathDark" :alt="alpine.header.logo.alt" width="89" height="31" />
-        <NuxtImg class="light-img" :src="alpine.header.logo.path" :alt="alpine.header.logo.alt" width="89" height="31" />
+        <NuxtImg class="dark-img" :src="alpine.header.logo.pathDark" :alt="alpine.header.logo.alt" width="500" height="500" />
+        <NuxtImg class="light-img" :src="alpine.header.logo.path" :alt="alpine.header.logo.alt" width="500" height="500" />
       </NuxtLink>
       <NuxtLink v-else to="/" class="fallback">
         {{ alpine.title }}
@@ -42,7 +42,8 @@ const show = ref(false)
 css({
   header: {
     '--header-padding': '{space.16}',
-    '--logo-height': '{space.8}',
+    '--logo-height': '{space.16}',
+    '--logo-width': '{space.16}',
     position: 'relative',
     display: 'grid',
     gridTemplateColumns: 'repeat(12, minmax(0, 1fr))',
@@ -103,6 +104,7 @@ css({
       display: 'flex',
       gridColumn: 'span 12 / span 12',
       height: 'var(--logo-height)',
+      width: 'var(--logo-width)',
       a: {
         display: 'flex',
       },
